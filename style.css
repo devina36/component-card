@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
 }
 
-.card {
+main {
   display: inline;
   width: 285px;
   height: 500px;
@@ -52,6 +52,7 @@ body {
 .overlay:hover {
   opacity: 1;
   transition: opacity 0.5s;
+  cursor: pointer;
 }
 
 .card-img img {
@@ -152,4 +153,5 @@ span {
 .card-text h2:hover,
 span:hover {
   color: var(--cyan);
+  cursor: pointer;
 }
